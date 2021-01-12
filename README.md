@@ -1,7 +1,6 @@
 # Summary
 
-... 1-2 sentences (see [release checklist](http://universaldependencies.org/release_checklist.html#the-readme-file) for README guidelines) ...
-
+The “Asia Minor Greek in Contact” treebank (AMGiC, UD_AMGiC) will be compiled from sentences entailing contact-induced morphosyntactic phenomena (CIMSP) that are a result of the contact between Greek and Turkish varieties in Anatolia and in adjacent regions. The sentences will be traced in Asia Minor Greek (AMG) dialectal sources. In addition to the UD analysis, the AMGiC treebank will provide information concerning the sociolinguistic context within which CIMSP arise.
 
 # Introduction
 
