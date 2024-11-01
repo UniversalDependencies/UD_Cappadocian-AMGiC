@@ -1,0 +1,812 @@
+# sent_id = 1
+# Dialect = Silliot
+# Sub_Dialect = ΝΟΝΕ
+# Sociodem_tags = PopCoex, VicUrb, GrEduc, Encl, KarLit, RegTr, ConstDiasp, GrStInter
+# MorphSynT = 1. FrGrM/QPart 2. FrGrM/EmphPart
+# Source = Kostakis 1968:116
+# Text_Greek = Ήταν ένα γερασμένη ναίκα, λέει, τζhανίμ, Α-Γιώργης μου, ήρτις ρω μ' κι;
+# text = ítan éna yerasméni néka, léi, ǰaním, A-Yóryis mu, írtis ro m' ki?
+# English_translation = there was an old woman, she said: 'My dear, Saint George, did you really come here?'
+1	ítan	ímu	VERB	VERB	_	0	root	_	#existential_meaning_"there_was"
+2	éna	ís	DET	DET	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_#Differential_Subject_Marking?
+3	yerasméni	yerasménos	ADJ	ADJ	Case=Nom|Gender=Fem|Number=Sing	4	amod	_	_
+4	néka	(e)néka	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	1	punct	_	_
+6	léi	léghu	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	6	punct	_	_
+8	ǰaním	ǰaním	NOUN	_	Case=Voc|Number=Sing	12	vocative	_	Orig=canım|OrigLang=tr|SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	8	punct	_	_
+10	A	ághius	ADJ	ADJ	Case=Voc|Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+11	-	-	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
+12	Yóryis	Yóryis	PROPN	PROPN	Case=Voc|Gender=Masc|Number=Sing	15	vocative	_	_
+13	mu	(e)γó	PRON	PRON	Case=Gen|Clitic=Yes|Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	12	punct	_	_
+15	írtis	érkhumu	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	6	parataxis	_	#non_embedded
+16	ro	ro	ADV	ADV	_	15	advmod	_	_
+17	m'	mi	AUX	_	_	15	aux:q	_	LC=YES|MorphSynC=FrGrM|MorphSynSC=QPart|Orig=mI|OrigLang=tr
+18	ki	ki	ADV	_	_	15	advmod:emph	_	LC=YES|MorphSynC=FrGrM|MorphSynSC=EmphPart|SpaceAfter=No
+19	?	?	PUNCT	PUNCT	_	15	punct	_	_
+
+# sent_id = 2
+# Dialect = Silliot
+# Sub_Dialect = ΝΟΝΕ
+# Sociodem_tags = PopCoex, VicUrb, GrEduc, Encl, KarLit, RegTr, ConstDiasp, GrStInter
+# MorphSyn_tag = ELIs/ELIsPost
+# Source = Kostakis 1968: 116
+# Text_Greek = …βρέσhει σιτζhίμ γκιbί.
+# text = vréši siǰím gibi.
+# English_translation =
+1	vréši	vréxu	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	siǰím	_	X	_	_	1	nmod	_	Lang=tr
+3	gibi	_	X	_	_	2	case	_	Lang=tr|LC=YES|MorphSynC=ELIs|MorphSynSC=ELIsPost|SpaceAfter=No
+4	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# sent_id = 3
+# Dialect = Silliot
+# Sub_Dialect = ΝΟΝΕ
+# Sociodem_tags = PopCoex, VicUrb, GrEduc, Encl, KarLit, RegTr, ConstDiasp, GrStInter
+# MorphSyn_tag = MorphIn/CopNeg
+# Source = Kostakis 1968: 118
+# Text_Greek = Να bαγəρτζίση κουκουνιός, βράδυν ορτά, καλό ρεν 'ναι
+# text = na baγərtzísi kukuniós, vráδin ortá, kaló ren 'ne
+# English_translation = It is not a good sign if the rooster crows in the middle of the night
+1	na	na	AUX	Subj	_	2	aux	_	_
+2	baγərtzísi	baγərdó	VERB	VERB	Aspect=Perf|Mood=Sub|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	csubj	_	_
+3	kukuniós	kukuniós	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	2	punct	_	_
+5	vráδin	vráδin	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	_
+6	ortá	ortá	ADV	ADV	_	2	advmod	_	LC=YES|MorphSynC=FrGrEl|MorphSynSC=Post|OrigLang=tr|SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	6	punct	_	_
+8	kaló	kalós	ADJ	ADJ	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+9	ren	ren	PART	Neg	_	8	advmod	_	_
+10	'ne	ímu	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	LC=YES|MorphSynC=MorphIn|MorphSynSC=CopNeg|#Compare_Turkish:değildir
+
+# sent_id = 4
+# Dialect = Silliot
+# Sub_Dialect = ΝΟΝΕ
+# Sociodem_tags = PopCoex, VicUrb, GrEduc, Encl, KarLit, RegTr, ConstDiasp, GrStInter
+# MorphSyn_tag = ELIs/ELIsPost
+# Source = Kostakis 1968: 120
+# Text_Greek = Φικιρσούζης μου άdρας τιγιά καλατζhί νε dεγί είπις τα μι;
+# text = fikirsúzis mu ádras tiyá kalaǰí ne deyí ípis ta mi?
+# English_translation = My mindless man why are you telling me this word?
+1	fikirsúzis	fikirsúzis	ADJ	ADJ	Case=Voc|Gender=Masc|Number=Sing	3	amod	_	OrigLang=tr|#Turkish_fikirsiz_derivative_morph_copied?
+2	mu	(e)γó	PRON	PRON	Case=Gen|Clitic=Yes|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod	_	_
+3	ádras	ádras	NOUN	NOUN	Case=Voc|Gender=Masc|Number=Sing	8	vocative	_	_
+4	tiyá	tiás	DET	DET	Case=Acc|Gender=Neut|Number=Sing	5	det	_	_
+5	kalaǰí	kalaǰí	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+6	ne	ne	PRON	Ques	_	7	obl	_	Foreign=Yes|Lang=tr
+7	deyí	deyí	ADP	_	_	8	case	_	Foreign=Yes|Lang=tr
+8	ípis	léghu	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	ta	(e)γó	PRON	PRON	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	_	#weak_clitic_form_double_cliting
+10	mi	mi	AUX	_	_	8	aux:q	_	LC=YES|MorphSynC=Part,FrGrEl,QPart|Orig=mI|OrigLang=tr|SpaceAfter=No
+11	?	?	PUNCT	PUNCT	_	8	punct	_	_
+
+# sent_id = 5
+# Dialect = Silliot
+# Sub_Dialect = ΝΟΝΕ
+# Sociodem_tags = PopCoex, VicUrb, GrEduc, Encl, KarLit, RegTr, ConstDiasp, GrStInter
+# MorphSyn_tag = FrGrEl/QPart
+# Source = Kostakis 1968: 120
+# Text_Greek = Μάνα, χάσις τα μ', πάλι σέλειζ να σ' ποίσhη εζιέτζα μι;
+# text = mána, xásis ta m', páli séliz na s' píši eziétza mi?
+# English_translation = mother, did you lose your mind, do you want (her) again to torture you?
+1	mána	mána	NOUN	NOUN	Case=Voc|Gender=Fem|Number=Sing	3	vocative	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	1	punct	_	_
+3	xásis	xánu	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	ta	(e)γó	PRON	PRON	Case=Acc|Clitic=Yes|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	#form probably in singular
+5	m'	mi	AUX	Ques	_	3	aux:q	_	LC=YES|MorphSynC=FrGrEl|MorphSynT=QPart|Orig=mI|OrigLang=tr|SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	3	punct	_	_
+7	páli	páli	ADV	ADV	_	8	advmod	_	_
+8	séliz	sélu	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+9	na	na	AUX	Subj	_	11	aux	_	_
+10	s'	(e)γó	PRON	PRON	Case=Acc|Number=Sing|Person=2|PronType=Prs	11	iobj	_	_
+11	píši	ftšánu	VERB	VERB	Aspect=Perf|Mood=Sub|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	ccomp	_	_
+12	eziétza	_	NOUN	NOUN	_	11	obj	_	#Meaning not clear, translated as "torture" (Noun)
+13	mi	mi	AUX	Ques	_	11	aux:q	_	LC=YES|MorphSynC=FrGrEl|MorphSynSC=QPart|Orig=mI|OrigLang=tr|SpaceAfter=No
+14	?	PUNCT	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 6
+# Dialect = Silliot
+# Sub_Dialect = ΝΟΝΕ
+# Sociodem_tags = PopCoex, VicUrb, GrEduc, Encl, KarLit, RegTr, ConstDiasp, GrStInter
+# MorphSyn_tag = FrGrEl/ConjSub
+# Source = Kostakis 1968: 122
+# Text_Greek = Μάνα dεγί, bαγəρdά τšι, πουτ' ήσου.
+# text = mána deyí, baγərdά či, put' ísu.
+# English_translation = He calls her saying 'where are you mother?'
+1	mána	mána	NOUN	NOUN	Case=Voc|Gender=Fem|Number=Sing	7	vocative	_	_
+2	deyí	deyí	SCONJ	_	_	7	mark	_	LC=YES|MorphSynC=FrGrEl|MorphSynSC=ConjSub|Orig=diye(<deyü)|OrigLang=tr|SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	4	punct	_	_
+4	baγərdά	baγərdó	VERB	VERB	_	0	root	_	Orig=bağırmak|OrigLang=tr
+5	či	(e)γó	PRON	PRON	Case=Acc|Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	4	punct	_	_
+7	put'	put'	ADV	_	_	4	advcl	_	_
+8	ísu	ímu	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	cop	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# sent_id = 7
+# Dialect = Silliot
+# Sub_Dialect = ΝΟΝΕ
+# Sociodem_tags = PopCoex, VicUrb, GrEduc, Encl, KarLit, RegTr, ConstDiasp, GrStInter
+# MorphSyn_tag = FrGrEl/ConjSub
+# Source = Kostakis 1968: 122
+# Text_Greek = κουπανά του χότζα, ποίκι ψέματα λημόρι dəγί
+# text = kupaná tu xódza, píki psémata limóri dəyí
+# English_translation = he hits hoca for he made a fake tomb
+1	kupaná	kupanó	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	tu	(ο)	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_#article_paradigm_defective
+3	xódza	xódzas	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No|OrigLang=tr
+4	,	,	PUNCT	PUNCT	_	1	punct	_	_
+5	píki	ftšánu	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	advcl	_	_
+6	psémata	pséma	NOUN	NOUN	_	5	xcomp	_	#Noun_used_in_adverbial_sense_as_in_MG_(το_κάνει_ψέματα)
+7	limóri	limóri	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+8	dəyí	deyí	SCONJ	_	_	5	mark	_	LC=YES|MorphSynC=FrGrEl|MorphSynSC=ConjSub|Orig=diye(<deyü)|OrigLang=tr|#Variation_in_phonetic_transcription
+
+# sent_id = 8
+# Dialect = Silliot
+# Sub_Dialect = ΝΟΝΕ
+# Sociodem_tags = PopCoex, VicUrb, GrEduc, Encl, KarLit, RegTr, ConstDiasp, GrStInter
+# MorphSyn_tag = SynIn/HFinPost
+# Source = Kostakis 1968: 122
+# Text_Greek = Ξεβασάμ' τα να κιρυώσ' του ψωμί, εσ'καμ' dα πισάριν απέσου.
+# text = Ksevasám' ta na kiriós' tu psomí, és'kam' da pisárin apésu.
+# English_translation = We brought out the bread to cool down, we put it inside the pot
+1	Ksevasám'	ksevánu	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	ta	(e)γó	PRON	PRON	Case=Acc|Clitic=Yes|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	expl	_	_
+3	na	na	AUX	Subj	_	4	aux	_	_
+4	kiriós'	kir(y)iónu	VERB	VERB	Aspect=Perf|Mood=Sub|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	1	advcl	_	#Final_clause_here
+5	tu	(ο)	DET	DET	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	psomí	psomí	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	SpaceAfter=No|#Double_cliting
+7	,	,	PUNCT	PUNCT	_	1	punct	_	_
+8	és'kam'	séknu	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	parataxis	_	_
+9	da	(e)γó	PRON	PRON	Case=Acc|Clitic=Yes|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+10	pisárin	pisárin	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	11	obl	_	_
+11	apésu	apésu	ADV	ADV	_	8	advmod	_	LC=YES|MorphSynC=SynIn|MorphSynSC=HFinPost|SpaceAfter=No|#adverbial construction possible in MG but with a PrPhr/here_exclusively_"left_branching"_(postposition?)
+12	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# sent_id = 9
+# Dialect = Silliot
+# Sub_Dialect = ΝΟΝΕ
+# Sociodem_tags = PopCoex, VicUrb, GrEduc, Encl, KarLit, RegTr, ConstDiasp, GrStInter
+# MorphSyn_tag = 1) SynIn/HFinPost, 2) SynIn/HFinPost
+# Source = Kostakis 1968: 124
+# Text_Greek = Έσ'κιν dα τσhη σόbαν απέσ', ήψαμ' τζhη, dιλιμλέισαμ' του ψωμί μας, γüσάρτσισαμ΄dα τσhη σόπα απάνου…
+# text = és'kin da či sóban apés', ípsam' ǰi, dilimléisam' tu psomí mas, yüsártsisam' da či sópa apánu
+# English_translation = [she] put it on the stove, we lit it up, we cut our bread into slices, we roasted it upon the stove
+1	és'kin	séknu	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	da	(e)γó	PRON	PRON	Case=Acc|Clitic=Yes|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+3	či	(ο)	DET	DET	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	sóban	sóba	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
+5	apés'	apésu	ADV	ADV	_	1	advmod	_	LC=YES|SpaceAfter=No|MorphSynC=SynIn|MorphSynSC=HFinPost|#Compare_AMGiC_005_but here_following_a_PrPhr_not_an_NP
+6	,	,	PUNCT	PUNCT	_	1	punct	_	_
+7	ípsam'	pséno	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	parataxis	_	_
+8	ǰi	(e)γó	PRON	PRON	Case=Acc|Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	7	punct	_	_
+10	dilimléisam'	dilimleízo	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	parataxis	_	Orig=dilimlemek|OrigLang=tr
+11	tu	(ο)	DET	DET	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
+12	psomí	psomí	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+13	mas	(e)γó	PRON	PRON	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	10	punct	_	_
+15	yüsártsisam'	yüsardó(?)	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	parataxis	_	OrigLang=tr|#unclear_origin_(<kızartmak?)
+16	da	(e)γó	PRON	PRON	Case=Acc|Clitic=Yes|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+17	či	(ο)	DET	DET	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	sópa	sópa	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	19	obl	_	_
+19	apánu	apánu	ADV	ADV	_	15	advmod	_	LC=YES|MorphSynC=SynIn|MorphSynSC=HFinPost
+
+# sent_id = 10
+# Dialect = Silliot
+# Sub_Dialect = ΝΟΝΕ
+# Sociodem_tags = PopCoex, VicUrb, GrEduc, Encl, KarLit, RegTr, ConstDiasp, GrStInter
+# MorphSyn_tag = 0
+# Source = Kostakis 1968: 126
+# Text_Greek = Τάρε του σπίčι ένι ένα κορίτσι χοšá
+# text = táre tu spíči éni éna korítsi xošá
+# English_translation = At home of this guy there is a beautiful girl
+1	táre	táre	PRON	PRON	PronType=Ind	3	nmod	_	#MG_:τάδε?_(cf._Kostakis_1968_p196)_indeclinable
+2	tu	(ο)	DET	DET	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	spíči	spíči	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	#Locative_meaning
+4	éni	ímu	VERB	VERB	_	0	root	_	#existential_meaning_"there_is"
+5	éna	énas	DET	DET	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	korítsi	korítsi	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+7	xošá	xošás	ADJ	ADJ	Case=Nom|Gender=Neut|Number=Sing	6	amod	_	OrigLang=tr|#No LC-induced morphosyntactic phenomenon but interesting postposition of the adjective
+
+# sent_id = 11
+# Dialect = Silliot
+# Sub_Dialect = ΝΟΝΕ
+# Sociodem_tags = PopCoex, VicUrb, GrEduc, Encl, KarLit, RegTr, ConstDiasp, GrStInter
+# MorphSyn_tag = L/LAgr
+# Source = Kostakis 1968:128
+# Text_Greek = Γάιτζισασhι τα τ'εμέλια, μεγάλη κλησhάς τα τ'εμέλια…
+# text = γáitzisaši ta t'emélia, meγáli klišás ta t'emélia
+# English_translation = they dug the foundations, the foundations of the big church
+1	γáitzisaši	(γazdó)	VERB	VERB	_	0	root	_	Orig=kazmak|OrigLang=tr
+2	ta	(ο)	DET	DET	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	3	det	_	_
+3	t'emélia	t'emélio	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Sing	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	3	punct	_	_
+5	meγáli	meγálos	ADJ	ADJ	Gender=Fem|Number=Sing	6	amod	_	LC=YES|MorphSynC=L|MorphSynSC=LAgr|#no genitive case ending
+6	klišás	klišá	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+7	ta	(ο)	DET	DET	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	8	det	_	_
+8	t'emélia	t'emélio	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Sing	3	appos	_	_#repetition with additional information due to preceding DP
+
+# sent_id = 12
+# Dialect = Silliot
+# Sub_Dialect = ΝΟΝΕ
+# Sociodem_tags = PopCoex, VicUrb, GrEduc, Encl, KarLit, RegTr, ConstDiasp, GrStInter
+# CI_MorphSyn_tag = FrGrEl/NegQ
+# Source = Kostakis 1968:128
+# Text_Greek = Και τους γκιαβούροιροι ρε σε τους ελεήσης χετς, σε σου πάρου.
+# text = Ke tus gjavúriri re se tus eleísis xets, se su páru.
+# English_translation = And you will not harm the infidels (i.e. the Christians), (then) I will marry you.
+1	Ke	ke	ADV	ADV	_	7	cc	_	_
+2	tus	(ο)	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	gjavúriri	gjavúris	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Plur	7	obj	_	Orig=gavur|OrigLang=tr
+4	re	re	PART	PART	_	7	advmod	_	_
+5	se	se	AUX	Fut	_	7	aux	_	_
+6	tus	(e)γó	PRON	PRON	Case=Acc|Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	expl	_	_
+7	eleísis	eleó	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+8	xets	xets	ADV	ADV	_	7	advmod	_	LC=YES|MorphSynC=FrGrEl|MorphSynSC=NegQ|SpaceAfter=No|Orig=hiç|OrigLang=tr
+9	,	,	PUNCT	PUNCT	_	7	punct	_	_
+10	se	se	AUX	Fut	_	12	aux	_	_
+11	su	(e)γó	PRON	PRON	Case=Acc|Clitic=Yes|Number=Sing|Person=2|PronType=Prs	12	obj	_	_
+12	páru	pér(n)u	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	7	parataxis	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	12	punct	_	_
+
+# sent_id = 13
+# Dialect = Silliot
+# Sub_Dialect = ΝΟΝΕ
+# Sociodem_tags = PopCoex, VicUrb, GrEduc, Encl, KarLit, RegTr, ConstDiasp, GrStInter
+# MorphSyn_tag = 1) MorphIn/DiscM, 2) BGrEl/DerBouM
+# Source = Dawkins 1916:284
+# Text_Greek = Μάνdις κι λαεί του óτσhι «Κο σου κόρη σε πάρη του σταχτητζhή.»
+# text = Mándis ki laí tu óči "ko su kóri se pári tu staxtiǰí."
+# English_translation = And the prophet says to him Your daughter will marry the man who sell ashes"."
+1	Mándis	mándis	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	ki	ki	ADV	_	_	1	advmod:emph	_	LC=YES|MorphSynC=MorphIn|MorphSynSC=DiscM
+3	laí	laló	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	tu	(e)γó	PRON	PRON	Case=Gen|Clitic=Yes|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+5	óči	óči	SCONJ	SCONJ	_	11	mark	_	_
+6	"	"	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+7	ko	ko	ADJ	_	Number=Sing	9	amod	_	#indeclinable|#Emphatic Possessive Pronoun, compare < MG ο δικός/η δική μου but in Silliot it is indeclinable
+8	su	(e)γó	PRON	PRON	Case=Gen|Clitic=Yes|Number=Sing|Person=2|Poss=Yes|PronType=Prs	9	nmod	_	_
+9	kóri	kóri	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+10	se	se	AUX	Fut	_	11	aux	_	_
+11	pári	pér(n)u	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	3	ccomp	_	_
+12	tu	(ο)	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	staxtiǰí	staxtiǰís	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	LC=YES|MorphSynC=BGrEl|MorphSynSC=DerBouM|SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+15	"	"	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 14
+# Dialect = Silliot
+# Sub_Dialect = ΝΟΝΕ
+# Sociodem_tags = PopCoex, VicUrb, GrEduc, Encl, KarLit, RegTr, ConstDiasp, GrStInter
+# MorphSyn_tag = FrGrEl/ConjSub
+# Source = Dawkins 1916:284
+# Text_Greek = Βαβάς τσhης έρσhιτι, νάφτσhει τα ξύλα οπ' τσhην ιρέαν ότσhι κόρη απέσ' τουν ένι dεγί
+# text = Vavás čis éršiti, náftši ta ksíla op' čin iréan óči kóri apés' tun éni deyí
+# English_translation = Her father comes, he sets light to the wood, thinking that his daughter is inside.
+1	Vavás	vavás	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	čis	(e)γó	PRON	PRON	Case=Gen|Clitic=Yes|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	nmod	_	_
+3	éršiti	érxumu	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	3	punct	_	_
+5	náftši	(anávo)	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+6	ta	(ο)	DET	DET	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	7	det	_	_
+7	ksíla	ksílo	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
+8	op'	op'	ADP	ADP	_	10	case	_	_
+9	čin	(ο)	DET	DET	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	10	det	_	_
+10	iréan	iréa	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
+11	óči	óči	SCONJ	_	_	13	mark	_	_
+12	kóri	kóri	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+13	apés'	apésu	ADV	ADV	_	10	acl	_	_#this is the predicate of the complement clause which in turn depends on iréan, a tricky syntactic case here
+14	tun	(e)γó	PRON	PRON	Case=Acc|Clitic=Yes|Number=Plur|Person=3|PronType=Prs	13	obl	_	_
+15	éni	ímu	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	13	cop	_	_
+16	deyí	deyí	SCONJ	_	_	10	mark	_	LC=YES|MorphSynC=FrGrEl|MorphSynSC=ConjSub
+
+# sent_id = 15
+# Dialect = Silliot
+# Sub_Dialect = ΝΟΝΕ
+# Sociodem_tags = PopCoex, VicUrb, GrEduc, Encl, KarLit, RegTr, ConstDiasp, GrStInter
+# MorphSyn_tag = FrGrEl/WhW
+# Source = Dawkins 1916: 286
+# Text_Greek = Ρωτά τσhη «Νατσh ήρτις ρω;»
+# text = Rotá či "nač írtis ro?"
+# English_translation = [he] asks her 'why did you come here?'
+1	Rotá	rotó	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	či	(e)γó	PRON	PRON	Case=Acc|Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+3	"	"	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+4	nač	nač	ADV	ADV	_	5	advmod	_	LC=YES|MorphSynC=FrGrEl|MorphSynSC=WhW|OrigLang=tr
+5	írtis	érkhumu	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Pass	1	advcl	_	_
+6	ro	ro	ADV	ADV	_	5	advmod	_	SpaceAfter=No
+7	?	?	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+8	"	"	PUNCT	PUNCT	_	5	punct	_	_
+
+# sent_id = 16
+# Dialect = Silliot
+# Sub_Dialect = ΝΟΝΕ
+# Sociodem_tags = PopCoex, VicUrb, GrEduc, Encl, KarLit, RegTr, ConstDiasp, GrStInter
+# MorphSyn_tag = 1) BGrEl/DerBouM 2) FrGrEl/ConjSub
+# Source = Dawkins 1916:  286
+# Text_Greek = Κι τότι σταχτητζhής λαεί ότσhι «Σhυ έγερ να μ bάρης, γω σένα φυλάττω σου.»
+# text = ki tóti staxtiǰís laí óči "ši éγer na m báris, γo séna filáto su."
+# English_translation = And then the ash-seller says, "if you will marry me, I will keep you safe."
+1	ki	ki	ADV	ADV	_	4	cc	_	_
+2	tóti	tóti	ADV	ADV	_	4	advmod	_	_
+3	staxtiǰís	staxtiǰís	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	LC=YES|MorphSynC=BGrEl|MorphSynSC=DerBouM
+4	laí	laló	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	óči	óči	SCONJ	_	_	15	mark	_	_
+6	"	"	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
+7	ši	(e)γó	PRON	PRON	Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj	_	_
+8	éγer	éγer	SCONJ	_	_	11	mark	_	LC=YES|MorphSynC=FrGrEl|MorphSynSC=ConjSub|Orig=eğer|OrigLang=tr
+9	na	na	AUX	Subj	_	11	aux	_	_
+10	m	(e)γó	PRON	PRON	Case=Acc|Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	obj	_	_
+11	báris	péro	VERB	VERB	Aspect=Perf|Mood=Sub|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	15	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	11	punct	_	_
+13	γo	(e)γó	PRON	PRON	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+14	séna	(e)γó	PRON	PRON	Case=Acc|Number=Sing|Person=2|PronType=Prs	15	obj	_	_
+15	filáto	filáto	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	_
+16	su	(e)γó	PRON	PRON	Case=Nom|Clitic=Yes|Number=Sing|Person=2|PronType=Prs	15	expl	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
+18	"	"	PUNCT	PUNCT	_	15	punct	_	_
+
+# sent_id = 17
+# Dialect = Silliot
+# Sub_Dialect = ΝΟΝΕ
+# Sociodem_tags = PopCoex, VicUrb, GrEduc, Encl, KarLit, RegTr, ConstDiasp, GrStInter
+# MorphSyn_tag = FrGrEl/AdvMod
+# Source = Dawkins 1916:  286
+# Text_Greek = Κέσhgε τσhην gόρη μου μη τσhη σκότισα κι να τσhημ bάρη σταχτητζhής.
+# text = Kešge čin góri mu mi či skótisa ki na čim bári staxtiǰís.
+# English_translation = Would that I had not killed my daughter and that the ash-seller had married her!
+1	Kešge	kešge	ADV	_	_	7	advmod	_	LC=YES|MorphSynC=FrGrEl|MorphSynSC=AdvMod|Orig=keşke|OrigLang=tr
+2	čin	(ο)	DET	DET	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	góri	kóri	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+4	mu	(e)γó	PRON	PRON	Case=Gen|Clitic=Yes|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod	_	_
+5	mi	mi	PART	Νeg	_	7	advmod	_	_
+6	či	(e)γó	PRON	PRON	Case=Nom|Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	expl	_	_
+7	skótisa	skotóno	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	ki	ki	ADV	_	_	7	cc	_	_
+9	na	na	AUX	Subj	_	11	aux	_	_
+10	čim	_	PRON	PRON	_	11	obj	_	_
+11	bári	péro	VERB	VERB	_	7	conj	_	_
+12	staxtiǰís	staxtiǰís	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# sent_id = 18
+# Dialect = Silliot
+# Sub_Dialect = ΝΟΝΕ
+# Sociodem_tags = PopCoex, VicUrb, GrEduc, Encl, KarLit, RegTr, ConstDiasp, GrStInter
+# MorphSyn_tag = MorphIn/EnCop
+# Source = Dawkins 1916: 286
+# Text_Greek = τότι κόρη είπιν δα 'ς του βαβάν τζhης ότσhι τούτουνου κόρη νε.
+# text = tóti kóri ípin dha stu vaván ǰis óči tútunu kóri ne.
+# English_translation = Then the daughter said to her father that she is his daughter
+1	tóti	tóti	ADV	ADV	_	3	advmod	_	_
+2	kóri	kóri	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	ípin	lé(gh)o	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	dha	(e)γó	PRON	PRON	Case=Acc|Clitic=Yes|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	probably /da/<ta (=to), voicing after nasal, cf. 'góri' in AMGiC_17
+5-6	stu	_	_	_	_	_	_	_	_
+5	s	s(e)	ADP	AsPpSp	_	7	case	_	_
+6	tu	(ο)	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	vaván	vavás	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing	3	iobj	_	_
+8	ǰis	(e)γó	PRON	PRON	Case=Gen|Clitic=Yes|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod	_	_
+9	óči	óči	SCONJ	SCONJ	_	11	mark	_	_
+10	tútunu	(e)tútus	PRON	PRON	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	nmod	_	_
+11	kóri	kóri	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	3	ccomp	_	_
+12	ne	ímu	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	LC=YES|MorphSynC=MorphIn|MorphSynSC=EnCop|SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# sent_id = 19
+# Dialect = Silliot
+# Sub_Dialect = ΝΟΝΕ
+# Sociodem_tags = PopCoex, VicUrb, GrEduc, Encl, KarLit, RegTr, ConstDiasp, GrStInter
+# MorphSyn_tag = FrGrEl/Quant
+# Source = Dawkins 1916:286
+# Text_Greek = Τούτα χερ ημέρα κασινοντζhίσκασhι χωρίζ ζουλιά.
+# text = Τúta xer iméra kasinonǰískaši xoríz zuliá.
+# English_translation = These sat every day without work.
+1	Τúta	(e)tútus	PRON	PRON	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Dem	4	nsubj	_	_
+2	xer	xer	DET	DisDet	_	3	det	_	LC=YES|MorphSynC=FrGrEl|MorphSynSC=Quant|Orig=her|OrigLang=tr|#Indeclinable_Distributive_Determiner(=MG κάθε)
+3	iméra	iméra	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+4	kasinonǰískaši	kásumu	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	xoríz	xorís	ADP	ADP	_	6	case	_	_
+6	zuliá	zuliá	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# sent_id = 20
+# Dialect = Silliot
+# Sub_Dialect = ΝΟΝΕ
+# Sociodem_tags = PopCoex, VicUrb, GrEduc, Encl, KarLit, RegTr, ConstDiasp, GrStInter
+# MorphSyn_tag = FrGrEl/AdvTime
+# Source = Dawkins 1916: 288
+# Text_Greek = Σονgρά σε βλέπης, κείνους ως που να σ' gαλατζhέψhη.
+# text = Songrá se vlépis, kínus ospu na s' galatzépši.
+# English_translation = Afterwards you will wait until he speaks to you.
+1	Songrá	son(gr)á	ADV	ADV	_	3	advmod	_	LC=YES|MorphSynC=FrGrEl|MorphSynSC=AdvTime|Orig=sonra|OrigLang=tr
+2	se	se	AUX	Fut	_	3	aux	_	_
+3	vlépis	vlépu	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	3	punct	_	_
+5	kínus	kínus	PRON	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	nsubj	_	_
+6	ospu	ospu	SCONJ	SCONJ	_	9	mark	_	_
+7	na	na	AUX	Subj	_	9	aux	_	_
+8	s'	(e)γó	PRON	PRON	Case=Gen|Clitic=Yes|Number=Sing|Person=2|PronType=Prs	9	obj	_	_
+9	galatzépši	galatzévo	VERB	VERB	Aspect=Perf|Mood=Sub|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	advcl	_	SpaceAfter=No|OrigLang=tr
+10	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# sent_id = 21
+# Dialect = Silliot
+# Sub_Dialect = ΝΟΝΕ
+# Sociodem_tags = PopCoex, VicUrb, GrEduc, Encl, KarLit, RegTr, ConstDiasp, GrStInter
+# MorphSyn_tag =
+# Source = Dawkins 1916:
+# Text_Greek = Τρεις μέρες χιτσh χιζü'ρης ρεν gαλατζhέβγει.
+# text = Tris méres xič xizürís ren galaǰévγi.
+# English_translation = For three days the holy man says nothing.
+1	Tris	tris	NUM	NUM	Case=Acc|Gender=Fem|Number=Plur|NumType=Card	2	nummod	_	_
+2	méres	méra	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Plur	6	obl	_	_
+3	xič	xič	ADV	ADV	_	6	advmod	_	LC=YES|MorphSynC=FrGrEl|MorphSynSC=NegQ|Orig=hiç|OrigLang=tr|#cf. xets above
+4	xizürís	xizürís	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	Orig=hızır|OrigLang=tr
+5	ren	ren	PART	Neg	_	6	advmod	_	_
+6	galaǰévγi	galatzévo	VERB	VERB	_	0	root	_	SpaceAfter=No|OrigLang=tr
+7	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# sent_id = 22
+# Dialect = Silliot
+# Sub_Dialect = ΝΟΝΕ
+# Sociodem_tags = PopCoex, VicUrb, GrEduc, Encl, KarLit, RegTr, ConstDiasp, GrStInter
+# MorphSyn_tag = 1) FrGrEl/ConjCo, 2) MorphIn/EnCop, 3) FrGrEl/ConjCo
+# Source = Dawkins 1916:288
+# Text_Greek = Αμμά τράνης οπ του στόμα σου μη πης ότσhι ρω τ ζενgινί 'κο μου νε' για 'κο μας ένι' πε.
+# text = Amá tránis op tu stóma su mi pis óči ro t zenginí "ko mu ne" ya "ko mas éni" pe.
+# English_translation = But look that you say not with your mouth 'this wealth is my own,' but say, 'it is our own'.
+1	Amá	amá	CCONJ	CCONJ	_	2	cc	_	LC=YES|MorphSynC=FrGrEl|MorphSynSC=ConjCo|OrigLang=tr
+2	tránis	tranó	VERB	VERB	Aspect=Perf|Mood=Sub|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_#na-less subjunctive instead of infinitive?
+3	op	op	ADP	ADP	_	5	case	_	_
+4	tu	(o)	DET	DET	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	stóma	stóma	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	8	obl	_	_
+6	su	(e)γó	PRON	PRON	Case=Gen|Clitic=Yes|Number=Sing|Person=2|Poss=Yes|PronType=Prs	5	nmod	_	_
+7	mi	mi	PART	Neg	_	8	advmod	_	_
+8	pis	léghu	VERB	VERB	Aspect=Perf|Mood=Sub|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	2	ccomp	_	_
+9	óči	óči	SCONJ	SCONJ	_	14	mark	_	_
+10	ro	ro	PRON	PRON	_	12	det	_	#According to Dawkins 1916:51 an indeclinable demonstrative from εδώ 'here'
+11	t	(o)	DET	DET	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
+12	zenginí	zenginí	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	14	nsubj	_	_
+13	"	"	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
+14	ko	ko	ADJ	_	_	8	ccomp	_	_
+15	mu	(e)γó	PRON	PRON	Case=Gen|Clitic=Yes|Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	nmod	_	_
+16	ne	ímu	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	LC=YES|MorphSynC=FrGrEl|MorphSynSC=EnCop|SpaceAfter=No
+17	"	"	PUNCT	PUNCT	_	16	punct	_	_
+18	ya	ya	CCONJ	CCONJ	_	8	cc	_	LC=YES|MorphSynC=FrGrEl|MorphSynSC=ConjCo|OrigLang=tr
+19	"	"	PUNCT	PUNCT	_	18	punct	_	SpaceAfter=No
+20	ko	ko	ADJ	_	_	24	ccomp	_	_
+21	mas	(e)γó	PRON	PRON	Case=Gen|Clitic=Yes|Number=Plur|Person=1|Poss=Yes|PronType=Prs	20	nmod	_	_
+22	éni	ímu	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	SpaceAfter=No
+23	"	"	PUNCT	PUNCT	_	22	punct	_	_
+24	pe	léghu	VERB	VERB	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	8	conj	_	SpaceAfter=No
+25	.	.	PUNCT	PUNCT	_	24	punct	_	_
+
+# sent_id = 23
+# Dialect = Silliot
+# Sub_Dialect = ΝΟΝΕ
+# Sociodem_tags = PopCoex, VicUrb, GrEduc, Encl, KarLit, RegTr, ConstDiasp, GrStInter
+# MorphSyn_tag = 1) FrGrEl/DiscM, 2) SynIn/HFinVFin, 3) SynIn/HFinVFin, 4) FrGrEl/WhW
+# Source = Dawkins 1916:290
+# Text_Greek = Τούτους κι λαεί του ότσhι "Χιτσh να φάγου ψωμί ρεν έχου, να φορώσου ρούχα ρεν έχου˙ νάχαλα μη düσhüντζhήσου;"
+# text = tútus ki laí tu óči "xič na fáγu psomí ren éxu, na forósu rúxa ren éxu; náxala mi düšünǰísu?"
+# English_translation = And the man tells him, "I have not a piece of bread to eat, I have no clothes to wear; how shall I not ponder?"
+1	tútus	(e)tútus	PRON	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	_
+2	ki	ki	ADV	_	_	1	advmod:emph	_	LC=YES|MorphSynC=MorphIn|MorphSynSC=DiscM
+3	laí	laló	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	tu	(e)γó	PRON	PRON	Case=Gen|Clitic=Yes|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+5	óči	óči	SCONJ	SCONJ	_	12	mark	_	_
+6	"	"	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+7	xič	xič	ADV	ADV	_	9	advmod	_	LC=YES|MorphSynC=FrGrEl|MorphSynSC=NegQ|Orig=hiç|OrigLang=tr
+8	na	na	AUX	Subj	_	9	aux	_	_
+9	fáγu	tróγo	VERB	VERB	Aspect=Perf|Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	12	ccomp	_	_
+10	psomí	psomí	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+11	ren	ren	PART	Neg	_	12	advmod	_	_
+12	éxu	éxu	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	LC=YES|MorphSynC=SynIn|MorphSynSC=HFinVFin|SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	12	punct	_	_
+14	na	na	AUX	Subj	_	15	aux	_	_
+15	forósu	foréno	VERB	VERB	Aspect=Perf|Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	18	ccomp	_	_
+16	rúxa	(rúxu)	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Plur	15	obj	_	_
+17	ren	ren	PART	Neg	_	18	advmod	_	_
+18	éxu	éxu	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	LC=YES|MorphSynC=SynIn|MorphSynSC=HFinVFin|SpaceAfter=No
+19	;	;	PUNCT	PUNCT	_	18	punct	_	_
+20	náxala	náxala	ADV	_	_	22	advmod	_	LC=YES|MorphSynC=FrGrEl|MorphSynSC=WhW|OrigLang=tr
+21	mi	mi	PART	Neg	_	22	advmod	_	_
+22	düšünǰísu	düšündó	VERB	VERB	Aspect=Perf|Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	SpaceAfter=No
+23	?	?	PUNCT	PUNCT	_	22	punct	_	SpaceAfter=No
+24	"	"	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = 24
+# Dialect = Silliot
+# Sub_Dialect = ΝΟΝΕ
+# Sociodem_tags = PopCoex, VicUrb, GrEduc, Encl, KarLit, RegTr, ConstDiasp, GrStInter
+# MorphSyn_tag = 1) FrGrEl/NegQ, 2) FrGrEl/ConjCo
+# Source = Dawkins 1916:292
+# Text_Greek = τσhην εναίκαν dου χιτσh νε παρά νε χαρτσhί τσhη βέμνει.
+# text = čin enéka du xič ne pará ne xarčí či vémni.
+# English_translation = To his wife he sends neither money nor letter
+1	čin	(o)	DET	DET	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	enéka	(e)néka	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	10	iobj	_	_
+3	du	(e)γó	PRON	PRON	Case=Gen|Clitic=Yes|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod	_	_
+4	xič	xič	ADV	ADV	_	10	advmod	_	LC=YES|MorphSynC=FrGrEl|MorphSynSC=NegQ|OrigLang=tr
+5	ne	ne	CCONJ	_	_	6	cc	_	LC=YES|MorphSynC=FrGrEl|MorphSynSC=ConjCo|OrigLang=tr
+6	pará	parás	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	OrigLang=tr
+7	ne	ne	CCONJ	_	_	8	cc	_	LC=YES|MorphSynC=FrGrEl|MorphSynSC=...|OrigLang=tr
+8	xarčí	xarčí	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	6	conj	_	_
+9	či	(e)γó	PRON	PRON	Case=Gen|Clitic=Yes|Number=Sing|Person=3|PronType=Prs	10	expl	_	_
+10	vémni	vémbo	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# sent_id = 25
+# Dialect = Silliot
+# Sub_Dialect = ΝΟΝΕ
+# Sociodem_tags = PopCoex, VicUrb, GrEduc, Encl, KarLit, RegTr, ConstDiasp, GrStInter
+# MorphSyn_tag = 1) SynIn/IdEx, 2) FrGrEl/AdvMod
+# Source = Dawkins 1916: 292
+# Text_Greek = Ποτινgιάν τούτους άρτουπους λαεί του da, τουτσά νους του έρσhιτι 'ς κεφάλιν dου˙  μεγέρ ζηρμόνησιν dα βλόημαν dου.
+# text = Potingján tútus ártupus laí tu da, tutsá nus tu éršiti s kefálin du, meγér zirmónisin da vlóiman du.
+# English_translation = As this man says this to him, straightway his sense comes into his head: for he had forgotten his marriage.
+1	Potingján	potingján	SCONJ	_	_	4	mark	_	<etym. 'όποτε κι αν'?
+2	tútus	(e)tútus	PRON	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nmod	_	_
+3	ártupus	ártupus	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	laí	laló	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	_	_
+5	tu	(e)γó	PRON	PRON	Case=Gen|Clitic=Yes|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+6	da	(e)γó	PRON	PRON	Case=Acc|Clitic=Yes|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	4	punct	_	_
+8	tutsá	tutsá	ADV	_	_	11	advmod	_	etym?
+9	nus	nus	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+10	tu	(e)γó	PRON	PRON	Case=Gen|Clitic=Yes|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod	_	_
+11	éršiti	érxumu	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+12	s	se	ADP	ADP	_	13	case	_	_
+13	kefálin	kefáli	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	LC=YES|MorphSynC=SynIn|MorphSynSC=IdEx
+14	du	(e)γó	PRON	PRON	Case=Gen|Clitic=Yes|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	11	punct	_	_
+16	meγér	meγér	ADV	_	_	17	advmod	_	LC=YES|MorphSynC=FrGrEl|MorphSynSC=AdvMod|OrigLang=tr
+17	zirmónisin	zirmunnó	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	11	conj	_	_
+18	da	(o)	DET	DET	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	_
+19	vlóiman	vlóima	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	17	obj	_	_
+20	du	(e)γó	PRON	PRON	Case=Gen|Clitic=Yes|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# sent_id = 26
+# Dialect = Silliot
+# Sub_Dialect = ΝΟΝΕ
+# Sociodem_tags = PopCoex, VicUrb, GrEduc, Encl, KarLit, RegTr, ConstDiasp, GrStInter
+# MorphSyn_tag = 1) FrGrEl/ConjSub
+# Source = Dawkins 1916:292
+# Text_Greek = Αγάς του λαεί του ότσhι «Μαdέμκι σhυ ωζ ζαριά χιτσh παρά ρεν ύριψις, άπαρ ρα τ κüρέι, κι σκάμα κάτου χαζνά»
+# text = Aγás tu laí óči "Madémki ši oz zarjá xič pará ren íripsis, ápar ra t küréi ki skáma kátu xazná"
+# English_translation = His master says to him, "Because until now you have never asked for any money, take this shovel and go down to the treasury.
+1	Aγás	aγás	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	OrigLang=tr
+2	tu	(e)γó	PRON	PRON	Case=Gen|Clitic=Yes|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	nmod	_	_
+3	laí	laló	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	óči	óči	SCONJ	SCONJ	_	15	mark	_	_
+5	"	"	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
+6	Madémki	madémki	SCONJ	SCONJ	_	13	mark	_	LC=YES|MorphSynC=FrGrEl|MorphSynSC=ConjSub|Orig=mademki|OrigLang=tr
+7	ši	(e)γó	PRON	PRON	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+8	oz	oz	ADP	ADP	_	9	case	_	_
+9	zarjá	zarjá	ADV	ADV	_	13	advmod	_	cf. Dawkins 1916: 581 'αδαρά'
+10	xič	xič	ADV	ADV	_	13	advmod	_	LC=YES|MorphSynC=FrGrEl|MorphSynSC=NegQ|OrigLang=tr
+11	pará	pará	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+12	ren	ren	PART	Neg	_	13	advmod	_	_
+13	íripsis	irévo	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	15	advcl	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	13	punct	_	_
+15	ápar	péru	VERB	VERB	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	3	ccomp	_	_
+16	ra	ra	PRON	PRON	_	18	det	_	_#indeclinable_demonstrative, cf._'ro'
+17	t	(o)	DET	DET	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	18	det	_	_
+18	küréi	küréi	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	15	obj	_	Orig=kürek|OrigLang=tr
+19	ki	ke	CCONJ	CCONJ	_	20	cc	_	_
+20	skáma	(skáfto)	VERB	VERB	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	15	conj	_	_
+21	kátu	kátu	ADV	ADV	_	20	advmod	_	_
+22	xazná	xaznás	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No|Orig=hazine|OrigLang=tr
+23	"	"	PUNCT	PUNCT	_	15	punct	_	_
+
+# sent_id = 27
+# Dialect = Silliot
+# Sub_Dialect = ΝΟΝΕ
+# Sociodem_tags = PopCoex, VicUrb, GrEduc, Encl, KarLit, RegTr, ConstDiasp, GrStInter
+# MorphSyn_tag = 1) L/LAgr, 2) FrGrM/EmphPart
+# Source = Dawkins 1916: 294
+# Text_Greek = Τούτους έσhει πολλά παρά κι˙
+# text = Tútus éši polá pará ki˙
+# English_translation = This man has much money indeed!
+1	Tútus	(e)tútus	PRON	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	_
+2	éši	éxu	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	polá	polís	ADJ	ADJ	Case=Acc|Gender=Neut|Number=Plur	4	amod	_	_
+4	pará	pará	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	LC=YES|MorphSynC=L|MorphSynSC=LAgr|OrigLang=tr|#no special plural form, cf. Kostakis1968:59 (or < çok para)
+5	ki	ki	ADV	ADV	_	2	advmod:emph	_	LC=YES|MorphSynC=FrGrM|MorphSynSC=EmphPart|OrigLang=tr|SpaceAfter=No
+6	˙	˙	PUNCT	PUNCT	_	2	punct	_	_
+
+# sent_id = 28
+# Dialect = Silliot
+# Sub_Dialect = ΝΟΝΕ
+# Sociodem_tags = PopCoex, VicUrb, GrEduc, Encl, KarLit, RegTr, ConstDiasp, GrStInter
+# MorphSyn_tag = 1) FrGrEl/AdvTime 2) SynIn/HFinPost
+# Source = Dawkins 1916: 294
+# Text_Greek = Αβόπουρμα έρκανdα, qαϊβετζhής ως κοιμάτι, τα παρά ούλα γεμώννει τα τερκίν dου απέσου.
+# text = Avópurma érkanda, qaiveǰís os kimáti, ta pará úla γemóni ta terkín du apésu.
+# English_translation = In the morning early, whilst the keeper of the café is sleeping, he packs all the money inside his saddle-bag.
+1	Avópurma	avópurma	ADV	ADV	_	11	advmod	_	_
+2	érkanda	érkanda	ADV	ADV	_	1	advmod	_	LC=YES|MorphSynC=FrGrM|MorphSynSC=AdvTime|OrigLang=tr|SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	6	punct	_	_
+4	qaiveǰís	qaiveǰís	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	OrigLang=tr
+5	os	os	SCONJ	SCONJ	_	6	mark	_	_
+6	kimáti	(kimámi?)	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	6	punct	_	_
+8	ta	(o)	DET	DET	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	9	det	_	_
+9	pará	pará	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Plur	11	obj	_	OrigLang=tr
+10	úla	úlus	ADJ	ADJ	Case=Acc|Gender=Neut|Number=Plur	9	amod	_	_
+11	γemóni	γemóno	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	ta	(o)	DET	DET	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
+13	terkín	terkí	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	11	obl	_	OrigLang=tr
+14	du	(e)γó	PRON	PRON	Case=Gen|Clitic=Yes|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod	_	_
+15	apésu	apésu	ADV	ADV	_	11	advmod	_	LC=YES|MorphSynC=SynIn|MorphSynSC=HFinPost|SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 29
+# Dialect = Silliot
+# Sub_Dialect = ΝΟΝΕ
+# Sociodem_tags = PopCoex, VicUrb, GrEduc, Encl, KarLit, RegTr, ConstDiasp, GrStInter
+# MorphSyn_tag = 1)
+# Source = Dawkins 1916:296
+# Text_Greek = Τουτσά οπ ρω τες τρειζ λίρες χεμ qαζάντζhησι ομbρίν dου, χεμ qαζάντζhησι πολλά παρά, χεμ παιρίν dου ρεν σκότισι.
+# text = Tučá op ro tes triz líres xem qazánǰisi ombrín du, xem qazánǰisi polá pará, xem perín du ren skótisi.
+# English_translation = Thus with these three pounds he gained his life and he gained much money and he did not kill his son.
+1	Tučá	tučá	ADV	ADV	_	8	advmod	_	_
+2	op	op	ADP	ADP	_	6	case	_	_
+3	ro	ro	PRON	PRON	_	6	det	_	#According to Dawkins 1916:51 an indeclinable demonstrative from εδώ 'here'
+4	tes	(o)	DET	DET	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+5	triz	triz	NUM	NUM	Case=Acc|Gender=Fem|Number=Plur|NumType=Card	6	nummod	_	_
+6	líres	líra	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Plur	8	obl	_	_
+7	xem	xem	CCONJ	_	_	8	cc	_	LC=YES|MorphSynC=FrGrEl|MorphSynSC=ConjCo
+8	qazánǰisi	qazanǰó	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	OrigLang=tr
+9	ombrín	(ombrí?)	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+10	du	(e)γó	PRON	PRON	Case=Gen|Clitic=Yes|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	8	punct	_	_
+12	xem	xem	CCONJ	_	_	13	cc	_	_
+13	qazánǰisi	qazandó	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	_
+14	polá	(polís)	ADJ	ADJ	Case=Acc|Gender=Neut|Number=Plur	15	amod	_	_
+15	pará	pará	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Plur	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	PUNCT	_	13	punct	_	_
+17	xem	xem	CCONJ	_	_	21	cc	_	_
+18	perín	perí	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	21	obj	_	(#final -n euphonic or from -ion ending?)
+19	du	(e)γó	PRON	PRON	Case=Gen|Clitic=Yes|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod	_	_
+20	ren	ren	PART	Neg	_	21	advmod	_	_
+21	skótisi	skotónu	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	SpaceAfter=No
+22	.	.	PUNCT	PUNCT	_	21	punct	_	_
+
+# sent_id = 30
+# Dialect = Silliot
+# Sub_Dialect = ΝΟΝΕ
+# Sociodem_tags = PopCoex, VicUrb, GrEduc, Encl, KarLit, RegTr, ConstDiasp, GrStInter
+# MorphSyn_tag = 1)
+# Source = Dawkins 1916: 298
+# Text_Greek = Qουγιουμτζhής σωρεί τσhην εναίκαν dου κοιμιζμένη ζουλιάς τσhης dεπέ.
+# text = Qujumǰís sorí čin enékan du kimizméni zuliás čis depé.
+# English_translation = The goldsmith sees his wife asleep in the midst of her work.
+1	Qujumǰís	qujumǰís	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	OrigLang=tr
+2	sorí	soró	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	čin	(o)	DET	DET	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	enékan	enéka	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	du	(e)γó	PRON	PRON	Case=Gen|Clitic=Yes|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod	_	_
+6	kimizméni	(kimámi)	VERB	VERB	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	4	acl	_	_
+7	zuliás	zuliá	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Sing	9	obl	_	_
+8	čis	(e)γó	PRON	PRON	Case=Gen|Clitic=Yes|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod	_	_
+9	depé	depé	ADV	ADV	_	6	advmod	_	LC=YES|MorphSynC=FrGrEl|MorphSynSC=Post|OrigLang=tr|SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# sent_id = 31
+# Dialect = Silliot
+# Sub_Dialect = ΝΟΝΕ
+# Sociodem_tags = PopCoex, VicUrb, GrEduc, Encl, KarLit, RegTr, ConstDiasp, GrStInter
+# MorphSyn_tag = 1) FrGrEl/ConjSub, 2) MorphIn/CopNeg, 3) MorphIn/EnCop
+# Source = Dawkins 1916: 300
+# Text_Greek = Εναίκα γράφει του βαβάν τζης κι «Κόρη σου καλή κόρη ρε νι˙ σκρόφα νε˙…»
+# text = enéka γráfi tu vaván ǰis ki "kóri su kalí kóri re'ni, skrófa'ne".
+# English_translation = The woman writes to the girl's father "Your girl is not a good girl; she is a harlot…."
+1	enéka	enéka	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	γráfi	γráfo	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	tu	tu	DET	DET	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	vaván	vavás	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+5	ǰis	(e)γó	PRON	PRON	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod	_	_
+6	ki	ki	SCONJ	SCONJ	_	11	mark	_	LC=YES|MorphSynC=FrGrEl|MorphSynSC=ConjSub|OrigLang=tr
+7	"	"	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+8	kóri	kóri	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+9	su	su	PRON	PRON	Case=Gen|Gender=Masc|Number=Sing|Person=2|Poss=Yes|PronType=Prs	8	nmod	_	_
+10	kalí	kalí	ADJ	ADJ	Case=Nom|Gender=Fem|Number=Sing	11	amod	_	_
+11	kóri	kóri	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	2	ccomp	_	_
+12	re	re	PART	PART	PartType=Neg|Polarity=Neg	16	advmod	_	SpaceAfter=No
+13	'ni	ímu	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	cop	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	13	punct	_	_
+15	skrófa	skrófa	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
+16	'ne	ímu	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	15	cop	_	LC=YES|MorphSynC=MorphIn|MorphSynSC=EnCop|SpaceAfter=No
+17	"	"	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No
+18	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# sent_id = 32
+# Dialect = Silliot
+# Sub_Dialect = ΝΟΝΕ
+# Sociodem_tags = PopCoex, VicUrb, GrEduc, Encl, KarLit, RegTr, ConstDiasp, GrStInter
+# MorphSyn_tag = 1)FrGrEl/Det
+# Source = Dawkins 1916: 302
+# Text_Greek = Άνdρας τσhης παίρει μήλου, πεγαίννει τένα bασhκά χουριό.
+# text = ándras čis péri mílu, peyéni téna bašká xuryó.
+# English_translation = Her husband takes the apple; he goes to another village;
+1	ándras	ándras	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	čis	(e)γó	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	nmod	_	_
+3	péri	péro	VERB	VERB	_	0	root	_	_
+4	mílu	mílu	NOUN	NOUN	_	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	3	punct	_	_
+6	peyéni	peyéno	VERB	VERB	_	3	conj	_	_
+7	téna	téna	DET	DET	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	9	det	_	#σ΄ένα?
+8	bašká	baškás	ADJ	ADJ	Case=Acc|Gender=Neut|Number=Sing	9	amod	_	OrigLang=tr|cf. Dawkins 1916:48
+9	xuryó	xuryó	NOUN	NOUN	_	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = 33
+# Dialect = Silliot
+# Sub_Dialect = ΝΟΝΕ
+# Sociodem_tags = PopCoex, VicUrb, GrEduc, Encl, KarLit, RegTr, ConstDiasp, GrStInter
+# MorphSyn_tag = 1) FrGrEl/ConjSub, 2) MorphIn/CopNeg, 3) MorphIn/EnCop
+# Source = Dawkins 1910a:128
+# Text_Greek = Nα ειπούμι χεμέν ψεματάκι, τουτσά να γαζαντζhήσουμε παρά.
+# text = Na ipúmi çemén psematáki, toutsá na γazandǰísume pará.
+# English_translation = Let us right now tell a little lie, thus we shall gain money.
+1	Na	na	AUX	Subj	_	2	aux	_	_
+2	ipúmi	léγo	VERB	VERB	Aspect=Perf|Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	çemén	çemén	ADV	ADV	_	2	advmod	_	LC=YES|MorphSynC=FrGrEl|MorphSynSC=AdvMod|Orig=hemen|OrigLang=tr
+4	psematáki	psematáki	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	2	punct	_	_
+6	toutsá	toutsá	ADV	ADV	_	8	advmod	_	#cf. Dawkins 1916: 652_<to_étsi?
+7	na	na	AUX	Subj	_	8	aux	_	_
+8	γazandǰísume	γazandó	VERB	VERB	_	2	conj	_	Orig=kazanmak|OrigLang=tr
+9	pará	pará	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No|OrigLang=tr
+10	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# sent_id = 34
+# Dialect = Silliot
+# Sub_Dialect = ΝΟΝΕ
+# Sociodem_tags = PopCoex, VicUrb, GrEduc, Encl, KarLit, RegTr, ConstDiasp, GrStInter
+# MorphSyn_tag = 1) FrGrEl/QPart, 2) FrGrEl/ConjCo, 3) FrGrEl/QPart
+# Source = Dawkins 1910a: 128
+# Text_Greek = Ψέματα μι να πούμι, γιόκσα αλήσια μ΄;
+# text = Psémata mi na púmi, yoksa alísia m'?
+# English_translation = Are we to speak lies or truth?
+1	Psémata	pséma	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	_
+2	mi	mi	AUX	_	_	1	aux:q	_	LC=YES|MorphSynC=FrGrEl|MorphSynSC=QPart|Orig=mI|OrigLang=tr
+3	na	na	AUX	Subj	_	4	aux	_	_
+4	púmi	léγo	VERB	VERB	_	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	yoksa	yoksa	CCONJ	_	_	7	cc	_	LC=YES|MorphSynC=FrGrEl|MorphSynSC=ConjCo|Orig=yoksa|OrigLang=tr
+7	alísia	alísia	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	_
+8	m	mi	AUX	_	_	7	aux:q	_	LC=YES|MorphSynC=FrGrEl|MorphSynSC=QPart|Orig=mI|OrigLang=tr|SpaceAfter=No
+9	'	'	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 35
+# Dialect = Silliot
+# Sub_Dialect = ΝΟΝΕ
+# Sociodem_tags = PopCoex, VicUrb, GrEduc, Encl, KarLit, RegTr, ConstDiasp, GrStInter
+# MorphSyn_tag = 1) BGrEl/InfBouM
+# Source = Dawkins 1916: 58
+# Text_Greek = ερσhίστινιζ
+# text = eršístiniz
+# English_translation = You [Pl.] come/are coming
+1	eršístiniz	érxumu	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	LC=YES|MorphSynC=BGrEl|MorphSynSC=InfBouM|#cf. discussion in Dawkins 1916: 58, not attested in texts however.
+
+# sent_id = 36
+# Dialect = Silliot
+# Sub_Dialect = ΝΟΝΕ
+# Sociodem_tags = PopCoex, VicUrb, GrEduc, Encl, KarLit, RegTr, ConstDiasp, GrStInter
+# MorphSyn_tag = 1)
+# Source = Dawkins 1916:199
+# Text_Greek = ερσhινόντζhισκα κι κασhινόντζhισκα
+# text = eršinónǰiska ki kašinónǰiska
+# English_translation = I was keep coming
+1	eršinónǰiska	érxumu	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+2	ki	ke	CCONJ	CCONJ	_	1	cc	_	LC=YES|MorphSynC=FrGrEl|MorphSynSC=QPart|Orig=mI|OrigLang=tr
+3	kašinónǰiska	kásumu	VERB	VERB	_	1	conj	_	_
+
