@@ -21,9 +21,7 @@ Apart from the annotation, AMGiC offers a detailed metadata section, in which CI
 # Changelog
 
 * 2024-10-01 v2.15
-  * Added 36 Silliot sentences.
-* 2021-05-15 v2.8
-  * Initial release in Universal Dependencies.
+  * Initial release in Universal Dependencies with 36 Silliot sentences.
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
