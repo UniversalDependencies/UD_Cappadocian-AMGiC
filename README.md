@@ -25,7 +25,7 @@ Apart from the annotation, AMGiC offers a detailed metadata section, in which CI
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
-Data available since: UD v2.8
+Data available since: UD v2.15
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: nonfiction news
