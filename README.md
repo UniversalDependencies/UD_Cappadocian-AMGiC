@@ -39,7 +39,7 @@ UPOS: converted from manual
 XPOS: manual native
 Features: converted from manual
 Relations: converted from manual
-Contributors: Sampanis, Konstantinos; Prokopidis, Prokopis; Akkurt, Furkan
+Contributors: Sampanis, Konstantinos; Prokopidis, Prokopis; Akkurt, Furkan; Binici, Helin
 Contributing: elsewhere
 Contact: konstantinos.sampanis@yahoo.com
 ===============================================================================
