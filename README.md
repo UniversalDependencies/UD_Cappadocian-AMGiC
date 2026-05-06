@@ -6,11 +6,11 @@ The "Asia Minor Greek in Contact" treebank (AMGiC, UD_AMGiC) is compiled from se
 
 AMGiC is a UD treebank dealing with cases of Contact-Induced Morphosyntactic Phenomena (CIMSP) in Inner Asia Minor Greek (AMG) that emerged under the influence of Turkish. Inner AMG comprises several interrelated but clearly distinct Cappadocian subdialects as well as the varieties of Silliot and Pharasiot (cf. Manolessou 2019; Cappadocian Greek (CG), Silliot and Pharasiot are in fact classified as distinct dialects, cf. Janse 2020: 203). Given however that the ISO 639-3 code we utilize for AMGiC is *cpg*, i.e. "Cappadocian Greek", we employ CG as a *pars pro toto* designation for all Inner AMG varieties.
 
-Apart from the annotation, AMGiC offers a detailed metadata section, in which CIMSP are tagged (cf. Sampanis & Prokopidis 2021). The current version (as of v2.15) of AMGiC is the first batch of the treebank including CIMSP traced in Silliot. Future versions of AMGiC will include CG and Pharasiot as well.
+Apart from the annotation, AMGiC offers a detailed metadata section, in which CIMSP are tagged (cf. Sampanis & Prokopidis 2021). The current version (as of v2.18) of AMGiC includes CIMSP traced in Silliot and in the Cappadocian Greek (CG) subdialect of Delmeso. Future versions of AMGiC will include Pharasiot and other CG varieties as well.
 
 # Acknowledgments
 
-...
+This work was supported by COST Action CA21167 — Universality, diversity and idiosyncrasy in language technology ([UniDive](https://unidive.lisn.upsaclay.fr/)).
 
 # References
 
@@ -20,6 +20,10 @@ Apart from the annotation, AMGiC offers a detailed metadata section, in which CI
 
 # Changelog
 
+* 2026-05-15 v2.18
+  * Added 34 Delmeso (Cappadocian) sentences.
+  * Applied validation fixes for auxiliaries and projectivity.
+  * Added UniDive acknowledgment.
 * 2024-10-01 v2.15
   * Initial release in Universal Dependencies with 36 Silliot sentences.
 
@@ -35,7 +39,7 @@ UPOS: converted from manual
 XPOS: manual native
 Features: converted from manual
 Relations: converted from manual
-Contributors: Sampanis, Konstantinos; Prokopidis, Prokopis; Akkurt, Furkan
+Contributors: Sampanis, Konstantinos; Prokopidis, Prokopis; Akkurt, Furkan; Binici, Helin
 Contributing: elsewhere
 Contact: konstantinos.sampanis@yahoo.com
 ===============================================================================

@@ -5,99 +5,106 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>36</sentences><tokens>450</tokens><words>451</words><fused>1</fused></total>
+    <total><sentences>70</sentences><tokens>817</tokens><words>820</words><fused>3</fused></total>
     <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
-    <test><sentences>36</sentences><tokens>450</tokens><words>451</words><fused>1</fused></test>
+    <test><sentences>70</sentences><tokens>817</tokens><words>820</words><fused>3</fused></test>
   </size>
-  <lemmas unique="190" /><!-- (e)γó, ,, ., ", (ο), na, ímu, (o), mi, ki, kóri, óči, ren, (e)tútus, ? -->
-  <forms unique="235" /><!-- ,, ., ", tu, na, ki, ta, du, óči, ?, kóri, mi, pará, ren, či -->
-  <fusions unique="1" /><!-- stu -->
+  <lemmas unique="330" /><!-- (e)γó, ,, ., o, na, ce, ímu, ", (ο), érχumu, ?, mi, ís, (o), peδí -->
+  <forms unique="406" /><!-- ,, ., to, na, tu, ", ce, ?, éna, ta, ci, óči, du, mi, ne -->
+  <fusions unique="3" /><!-- domuškam, stu, tórχete -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
-  <tags unique="15">
-    <tag name="ADJ">14</tag><!-- ko, (polís), baškás, fikirsúzis, kalí, kalós, meγálos, polís, xošás, yerasménos -->
-    <tag name="ADP">8</tag><!-- op, deyí, op', oz, s(e), se, xorís -->
-    <tag name="ADV">38</tag><!-- ki, apésu, xič, ro, tóti, apánu, avópurma, depé, ke, kešge -->
-    <tag name="AUX">29</tag><!-- na, ímu, mi, se -->
-    <tag name="CCONJ">10</tag><!-- xem, ke, ne, amá, ya, yoksa -->
-    <tag name="DET">29</tag><!-- (ο), (o), tiás, tu, téna, xer, énas, ís -->
-    <tag name="NOUN">78</tag><!-- kóri, pará, psomí, staxtiǰís, vavás, (e)néka, enéka, mána, pséma, t'emélio -->
-    <tag name="NUM">2</tag><!-- tris, triz -->
-    <tag name="PART">11</tag><!-- ren, mi, re -->
-    <tag name="PRON">62</tag><!-- (e)γó, (e)tútus, ro, _, kínus, ne, ra, su, táre -->
+  <tags unique="16">
+    <tag name="ADJ">22</tag><!-- ko, güzél, mikrós, (polís), baškás, fikirsúzis, kalí, kalós, meγálos, mávros -->
+    <tag name="ADP">16</tag><!-- op, s, se, aso, deyí, kadár, op', oz, s(e), so -->
+    <tag name="ADV">67</tag><!-- ci, apésu, χič, barabári, embró, eδú, gai, púθe, ro, sasqón -->
+    <tag name="AUX">50</tag><!-- na, ímu, mi, se -->
+    <tag name="CCONJ">40</tag><!-- ce, ke, χem, ne, yóksa, χém, Ki, amá, c', ge -->
+    <tag name="DET">69</tag><!-- o, (ο), ís, (o), énas, Etó, tiás, tu, téna, χer -->
+    <tag name="INTJ">1</tag><!-- amán -->
+    <tag name="NOUN">134</tag><!-- peδí, kóri, pará, psomí, staχtiǰís, vavás, (e)néka, Dunyá, Güzelí, dergízi -->
+    <tag name="NUM">7</tag><!-- seránda, enyá, tris, triz, trís, δyo -->
+    <tag name="PART">22</tag><!-- ren, den, mi, na, re, as, dom, ep, či -->
+    <tag name="PRON">94</tag><!-- (e)γó, to, (e)tútus, emís, o, ro, Ešís, _, cínus, do -->
     <tag name="PROPN">1</tag><!-- Yóryis -->
-    <tag name="PUNCT">78</tag><!-- ,, ., ", ?, ', -, ;, PUNCT, ˙ -->
-    <tag name="SCONJ">16</tag><!-- óči, deyí, ki, madémki, os, ospu, potingján, éγer -->
-    <tag name="VERB">73</tag><!-- laló, léghu, érxumu, péro, éxu, baγərdó, ftšánu, galatzévo, kásumu, léγo -->
+    <tag name="PUNCT">141</tag><!-- ,, ., ", ?, ', -, ;, PUNCT, ˙ -->
+    <tag name="SCONJ">23</tag><!-- óči, deyí, ci, an, madémci, mi, os, ospu, potingján, tu -->
+    <tag name="VERB">131</tag><!-- érχumu, laló, pérno, tróo, léγu, léγo, poíko, péro, éχu, baγərdó -->
     <tag name="X">2</tag><!-- _ -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="35">
-    <feat name="Aspect" value="Imp" upos="AUX,VERB">28</feat><!-- laí, éni, éxu, 'ne, 'ni, Rotá, eršinónǰiska, eršístiniz, filáto, kasinonǰískaši -->
-    <feat name="Aspect" value="Perf" upos="VERB">39</feat><!-- qazánǰisi, írtis, Ksevasám', baγərtzísi, báris, dilimléisam', düšünǰísu, eleísis, forósu, fáγu -->
-    <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,NUM,PRON,VERB">93</feat><!-- ta, tu, pará, da, či, čin, psomí, polá, t, tus -->
-    <feat name="Case" value="Gen" upos="DET,NOUN,PRON">32</feat><!-- du, tu, mu, su, čis, mas, ǰis, klišás, s', tútunu -->
-    <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,PRON">40</feat><!-- kóri, tútus, staxtiǰís, t'emélia, éna, ši, Aγás, Mándis, Qujumǰís, Vavás -->
-    <feat name="Case" value="Voc" upos="ADJ,NOUN,PROPN">7</feat><!-- mána, A, Yóryis, fikirsúzis, ádras, ǰaním -->
-    <feat name="Clitic" value="Yes" upos="PRON">40</feat><!-- du, tu, da, mu, su, či, ta, čis, dha, m -->
-    <feat name="Definite" value="Def" upos="DET">24</feat><!-- tu, ta, čin, t, či, da, tes, tus -->
-    <feat name="Definite" value="Ind" upos="DET">3</feat><!-- éna, téna -->
-    <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,VERB">45</feat><!-- kóri, či, čin, čis, enéka, mána, ǰis, Tris, enékan, góri -->
-    <feat name="Gender" value="Masc" upos="ADJ,DET,NOUN,PRON,PROPN">45</feat><!-- du, tu, tútus, pará, staxtiǰís, tus, vaván, A, Aγás, Mándis -->
-    <feat name="Gender" value="Neut" upos="ADJ,DET,NOUN,PRON">59</feat><!-- ta, da, pará, tu, psomí, polá, t, t'emélia, éna, Psémata -->
-    <feat name="Mood" value="Imp" upos="VERB">3</feat><!-- pe, skáma, ápar -->
-    <feat name="Mood" value="Ind" upos="AUX,VERB">55</feat><!-- laí, 'ne, ne, qazánǰisi, éni, éršiti, éxu, írtis, 'ni, Ksevasám' -->
-    <feat name="Mood" value="Sub" upos="VERB">11</feat><!-- baγərtzísi, báris, düšünǰísu, forósu, fáγu, galatzépši, ipúmi, kiriós', pis, píši -->
-    <feat name="Number" value="Plur" upos="ADJ,DET,NOUN,NUM,PRON,VERB">34</feat><!-- ta, pará, mas, polá, tus, Ksevasám', Psémata, Tris, alísia, dilimléisam' -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">209</feat><!-- tu, du, kóri, či, da, laí, su, mu, ta, pará -->
-    <feat name="NumType" value="Card" upos="NUM">2</feat><!-- Tris, triz -->
+  <feats unique="37">
+    <feat name="Aspect" value="Imp" upos="AUX,VERB">54</feat><!-- laí, gréviz, leχ, éni, éχu, 'ne, 'ni, 'ton, 'tun, (é)rχete -->
+    <feat name="Aspect" value="Perf" upos="VERB">73</feat><!-- eksévin, kásun, qazánǰisi, sikoθún, írten, írtis, Ksevasám', Ránsen, baγərtzísi, báris -->
+    <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,NUM,PRON,VERB">158</feat><!-- to, ta, tu, éna, pará, da, či, čin, do, peδí -->
+    <feat name="Case" value="Gen" upos="DET,NOUN,PRON">51</feat><!-- tu, du, mu, su, čis, dergizmú, mas, patisáχu, ǰis, Dunyá -->
+    <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,PRON">83</feat><!-- to, kóri, éna, peδí, tútus, emís, staχtiǰís, t'emélia, ta, ši -->
+    <feat name="Case" value="Voc" upos="ADJ,NOUN,PROPN">10</feat><!-- mána, A, Peδí, Yóryis, fikirsúzis, javrú, teté, ádras, ǰaním -->
+    <feat name="Clitic" value="Yes" upos="PRON">47</feat><!-- du, tu, da, mu, su, či, do, m, ta, to -->
+    <feat name="Definite" value="Def" upos="DET">52</feat><!-- to, tu, ta, so, čin, sa, t, či, da, tes -->
+    <feat name="Definite" value="Ind" upos="DET">12</feat><!-- éna, téna, tóna -->
+    <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,VERB">57</feat><!-- kóri, či, čin, čis, Dunyá, enéka, mána, ǰis, Güzelidyú, Güzelí -->
+    <feat name="Gender" value="Masc" upos="ADJ,DET,NOUN,PRON,PROPN">63</feat><!-- tu, du, tútus, pará, patisáχu, staχtiǰís, to, tus, vaván, A -->
+    <feat name="Gender" value="Neut" upos="ADJ,DET,NOUN,PRON">147</feat><!-- to, ta, éna, peδí, tu, da, pará, so, psomí, dergizmú -->
+    <feat name="Mood" value="Imp" upos="VERB">4</feat><!-- pe, pike, skáma, ápar -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">110</feat><!-- laí, nde, ne, leχ, 'ne, eksévin, gréviz, qazánǰisi, éni, éršiti -->
+    <feat name="Mood" value="Sub" upos="VERB">23</feat><!-- kásun, sikoθún, baγərtzísi, báris, düšünǰísu, erzí, fam, forósu, fáγu, galatzépši -->
+    <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">75</feat><!-- ta, nde, pará, emís, kásun, mas, polá, sa, sas, sikoθún -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">366</feat><!-- to, tu, éna, du, peδí, kóri, či, da, laí, su -->
+    <feat name="NumType" value="Card" upos="NUM">7</feat><!-- seránda, Tris, enyá, triz, tría, δyo -->
     <feat name="PartType" value="Neg" upos="PART">1</feat><!-- re -->
-    <feat name="Person" value="1" upos="PRON,VERB">23</feat><!-- mu, mas, éxu, Ksevasám', dilimléisam', düšünǰísu, filáto, forósu, fáγu, ipúmi -->
-    <feat name="Person" value="2" upos="AUX,PRON,VERB">25</feat><!-- su, s', báris, eleísis, pe, pis, skáma, sorí, séliz, séna -->
-    <feat name="Person" value="3" upos="AUX,PRON,VERB">77</feat><!-- du, laí, tu, da, či, ta, tútus, čis, 'ne, ne -->
-    <feat name="Polarity" value="Neg" upos="PART">1</feat><!-- re -->
-    <feat name="Poss" value="Yes" upos="PRON">23</feat><!-- du, mu, su, čis, mas, tu, ǰis -->
-    <feat name="PronType" value="Art" upos="DET">27</feat><!-- tu, ta, čin, t, éna, či, da, tes, tus, téna -->
-    <feat name="PronType" value="Dem" upos="PRON">6</feat><!-- tútus, kínus, tútunu, Τúta -->
-    <feat name="PronType" value="Ind" upos="PRON">1</feat><!-- táre -->
-    <feat name="PronType" value="Prs" upos="PRON">50</feat><!-- du, su, tu, da, mu, či, ta, čis, mas, s' -->
+    <feat name="Person" value="1" upos="PRON,VERB">38</feat><!-- mu, emís, m, mas, éχu, Ksevasám', dilimléisam', düšünǰísu, emóšh, eγó -->
+    <feat name="Person" value="2" upos="AUX,PRON,VERB">46</feat><!-- su, se, gréviz, s', sas, Ešís, báris, cimáse, drúte, eleísis -->
+    <feat name="Person" value="3" upos="AUX,PRON,VERB">139</feat><!-- to, du, laí, tu, da, nde, ne, či, do, leχ -->
+    <feat name="Polarity" value="Neg" upos="PART">7</feat><!-- den, de, dom, dén, dε, re -->
+    <feat name="Poss" value="Yes" upos="PRON">27</feat><!-- du, mu, su, čis, mas, tu, ǰis, m, m', más -->
+    <feat name="PronType" value="Art" upos="DET">66</feat><!-- to, tu, éna, ta, so, čin, sa, t, či, da -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">11</feat><!-- tútus, ro, Etó, cínus, ekín, ra, tútunu, Τúta -->
+    <feat name="PronType" value="Ind" upos="DET,PRON">3</feat><!-- Kaneís, táre, χer -->
+    <feat name="PronType" value="Int" upos="DET,PRON">2</feat><!-- ne, tiyá -->
+    <feat name="PronType" value="Prs" upos="PRON">77</feat><!-- to, du, su, tu, da, mu, či, do, ta, čis -->
+    <feat name="PronType" value="Rel" upos="PRON">4</feat><!-- to, óči, óčis -->
     <feat name="Tense" value="Fut" upos="VERB">4</feat><!-- eleísis, pári, páru, vlépis -->
-    <feat name="Tense" value="Past" upos="VERB">20</feat><!-- qazánǰisi, írtis, Ksevasám', dilimléisam', eršinónǰiska, kasinonǰískaši, píki, skótisa, skótisi, xásis -->
-    <feat name="Tense" value="Pres" upos="AUX,VERB">35</feat><!-- laí, 'ne, ne, éni, éršiti, éxu, 'ni, Rotá, düšünǰísu, eršístiniz -->
-    <feat name="VerbForm" value="Fin" upos="AUX,VERB">69</feat><!-- laí, 'ne, ne, qazánǰisi, éni, éršiti, éxu, írtis, 'ni, Ksevasám' -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">47</feat><!-- eksévin, qazánǰisi, írten, írtis, 'ton, 'tun, Ksevasám', Ránsen, dilimléisam', déken -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">69</feat><!-- laí, nde, ne, 'ne, gréviz, leχ, éni, éršiti, éχu, 'ni -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">134</feat><!-- laí, nde, ne, leχ, 'ne, eksévin, gréviz, kásun, qazánǰisi, sikoθún -->
     <feat name="VerbForm" value="Part" upos="VERB">1</feat><!-- kimizméni -->
-    <feat name="Voice" value="Act" upos="VERB">52</feat><!-- laí, qazánǰisi, éxu, Ksevasám', Rotá, baγərtzísi, báris, dilimléisam', düšünǰísu, eleísis -->
-    <feat name="Voice" value="Pass" upos="AUX,VERB">13</feat><!-- éršiti, írtis, 'ne, 'ni, eršinónǰiska, eršístiniz, kasinonǰískaši, kimizméni, kimáti, zirmónisin -->
+    <feat name="Voice" value="Act" upos="VERB">52</feat><!-- laí, qazánǰisi, éχu, Ksevasám', Rotá, baγərtzísi, báris, dilimléisam', düšünǰísu, eleísis -->
+    <feat name="Voice" value="Pass" upos="AUX,VERB">18</feat><!-- sikoθún, éršiti, írtis, 'ne, 'ni, cimáse, eršinónǰiska, eršístiniz, estáθin, kasinonǰískaši -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="28">
-    <dep name="acl">2</dep>
-    <dep name="advcl">9</dep>
-    <dep name="advmod">40</dep>
+  <deps unique="32">
+    <dep name="acl">3</dep>
+    <dep name="acl:relcl">3</dep>
+    <dep name="advcl">16</dep>
+    <dep name="advmod">71</dep>
     <dep name="advmod:emph">4</dep>
-    <dep name="amod">11</dep>
+    <dep name="amod">14</dep>
     <dep name="appos">1</dep>
-    <dep name="aux">15</dep>
+    <dep name="aux">25</dep>
     <dep name="aux:q">6</dep>
-    <dep name="case">9</dep>
-    <dep name="cc">13</dep>
-    <dep name="ccomp">14</dep>
-    <dep name="conj">11</dep>
-    <dep name="cop">8</dep>
+    <dep name="case">16</dep>
+    <dep name="cc">42</dep>
+    <dep name="ccomp">20</dep>
+    <dep name="conj">30</dep>
+    <dep name="cop">18</dep>
     <dep name="csubj">1</dep>
-    <dep name="det">32</dep>
-    <dep name="expl">5</dep>
-    <dep name="iobj">6</dep>
-    <dep name="mark">16</dep>
-    <dep name="nmod">28</dep>
-    <dep name="nsubj">27</dep>
-    <dep name="nummod">2</dep>
-    <dep name="obj">44</dep>
-    <dep name="obl">18</dep>
-    <dep name="parataxis">9</dep>
-    <dep name="punct">78</dep>
-    <dep name="root">36</dep>
-    <dep name="vocative">5</dep>
-    <dep name="xcomp">1</dep>
+    <dep name="dep">1</dep>
+    <dep name="det">72</dep>
+    <dep name="det:poss">1</dep>
+    <dep name="discourse">4</dep>
+    <dep name="expl">9</dep>
+    <dep name="iobj">8</dep>
+    <dep name="mark">27</dep>
+    <dep name="nmod">44</dep>
+    <dep name="nsubj">51</dep>
+    <dep name="nummod">6</dep>
+    <dep name="obj">67</dep>
+    <dep name="obl">29</dep>
+    <dep name="parataxis">11</dep>
+    <dep name="punct">141</dep>
+    <dep name="root">70</dep>
+    <dep name="vocative">7</dep>
+    <dep name="xcomp">2</dep>
   </deps>
 </treebank>
