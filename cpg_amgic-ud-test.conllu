@@ -1356,7 +1356,7 @@
 # subdialect = Delmeso
 # morphosyntactic_tag = SynIn/RelCl
 # source = Dawkins 1916: 322
-# text[ell] = Ce δíχνι σας τo ἰστεδíζετε τo χωρjó.
+# text[ell] = Ce δíχνι σας τo ἰστεdíζετε τo χωρjó.
 # text[eng] = And (she) shows you the village that you want.
 1	Ce	ke	CCONJ	CCONJ	_	2	cc	_	_
 2	δíχni	δíχno	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1368,51 +1368,51 @@
 8	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 # sent_id = 66
-# text = Amadí dén drúte?
+# text = Amačí dén dróte?
 # dialect = Cappadocian
 # subdialect = Delmeso
 # morphosyntactic_tag = FrGrEl/WhW
 # source = Dawkins 1916: 322
-# text[ell] = Ἀμαδí δéν δρúτε;
+# text[ell] = Ἀμαčí dέν dρώτε;
 # text[eng] = Why don't you eat?
-1	Amadí	amadí	ADV	ADV	_	3	advmod	_	LC=Yes|MorphSynC=FrGrEl|MorphSynSC=ConjCo
+1	Amačí	amačí	ADV	ADV	_	3	advmod	_	LC=Yes|MorphSynC=FrGrEl|MorphSynSC=WhW|#< tr. ama 'but' + gr. τι 'what'
 2	dén	den	PART	PART	Polarity=Neg	3	advmod	_	_
-3	drúte	tróo	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	dróte	tróo	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	?	?	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = 67
 # text = ná kásun barabári ke ná sikoθún.
 # dialect = Cappadocian
 # subdialect = Delmeso
-# morphosyntactic_tag = MorphIn/DCM
-# source = Dawkins 1916: 322
-# text[ell] = νá κáσουν βαραβáρι καì νá σηκωθoún.
+# morphosyntactic_tag = FrGrEl/AdvMod
+# source = Dawkins 1916: 320
+# text[ell] = να κάσουν bαραbάρι και να σηκωθoύν.
 # text[eng] = that they may sit down and rise up together.
 1	ná	na	AUX	Subj	_	2	aux	_	_
 2	kásun	káθumu	VERB	VERB	Aspect=Perf|Mood=Sub|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
-3	barabári	barabári	ADV	ADV	_	2	advmod	_	LC=Yes|MorphSynC=MorphIn|MorphSynSC=DCM|Orig=beraber|OrigLang=tr
+3	barabári	barabári	ADV	ADV	_	2	advmod	_	LC=Yes|MorphSynC=FrGrEl|MorphSynSC=AdvMod|Orig=beraber|OrigLang=tr
 4	ke	ke	CCONJ	CCONJ	_	6	cc	_	_
 5	ná	na	AUX	Subj	_	6	aux	_	_
 6	sikoθún	sikónomu	VERB	VERB	Aspect=Perf|Mood=Sub|Number=Plur|Person=3|VerbForm=Fin|Voice=Pass	2	conj	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 # sent_id = 68
-# text = χém déken do c' éfaγen, χém fílsen zin.
+# text = χém déken do c' éfaγen, χém fílsen ǰin.
 # dialect = Cappadocian
 # subdialect = Delmeso
 # morphosyntactic_tag = FrGrEl/ConjCo
 # source = Dawkins 1916: 324
-# text[ell] = χéμ δéκεν dο κ' ἔφαγεν, χéμ φíλσεν ζην.
+# text[ell] = χεμ δέκεν dο κ' ἔφαγεν, χέμ φíλσεν ǰην.
 # text[eng] = he both gave her food and she ate, and kissed her.
 1	χém	χém	CCONJ	CCONJ	_	2	cc	_	LC=Yes|MorphSynC=FrGrEl|MorphSynSC=ConjCo|Orig=hem|OrigLang=tr
 2	déken	δíno	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-3	do	(e)γó	PRON	PRON	Case=Acc|Clitic=Yes|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+3	do	(e)γó	PRON	PRON	Case=Acc|Clitic=Yes|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	#instead of ǰin?
 4	c'	ke	CCONJ	CCONJ	_	5	cc	_	_
 5	éfaγen	tróo	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	SpaceAfter=No
 6	,	,	PUNCT	PUNCT	_	5	punct	_	_
 7	χém	χém	CCONJ	CCONJ	_	8	cc	_	LC=Yes|MorphSynC=FrGrEl|MorphSynSC=ConjCo|Orig=hem|OrigLang=tr
 8	fílsen	filáo	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
-9	zin	(e)γó	PRON	PRON	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
+9	ǰin	(e)γó	PRON	PRON	Case=Acc|Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 # sent_id = 69
@@ -1433,15 +1433,15 @@
 8	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = 70
-# text = Tu ölzüjü ta saqália áspra nde yóksa mávra nde?
+# text = Tu ölzüǰü ta saqália áspra nde yóksa mávra nde?
 # dialect = Cappadocian
 # subdialect = Delmeso
 # morphosyntactic_tag = 1) FrGrEl/ConjCo, 2) MorphIn/EnCop
-# source = Dawkins 1916: 326
-# text[ell] = Τoυ öλζüjü τα σαqáλια ἄσπρα νdαι γιóξα μάβρα νdαι;
+# source = Dawkins 1916: 328
+# text[ell] = Τoυ öλζüǰü τα σαqάλια άσπρα νdαι γιóξα μάβρα νdαι;
 # text[eng] = Is the scale-maker's beard white or is it black?
 1	Tu	o	DET	DET	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	ölzüjü	ölzüjü	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	Orig=ölçücü|OrigLang=tr
+2	ölzüǰü	ölzüǰü	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	Orig=ölçücü|OrigLang=tr
 3	ta	o	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	4	det	_	_
 4	saqália	saqáli	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	_
 5	áspra	áspros	ADJ	ADJ	Case=Nom|Gender=Neut|Number=Plur	0	root	_	_
