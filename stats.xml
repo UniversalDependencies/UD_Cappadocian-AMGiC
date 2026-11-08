@@ -40,7 +40,7 @@
     <feat name="Case" value="Gen" upos="DET,NOUN,PRON">51</feat><!-- tu, du, mu, su, čis, dergizmú, mas, patisáχu, ǰis, Dunyá -->
     <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,PRON">83</feat><!-- to, kóri, éna, peδí, tútus, emís, staχtiǰís, t'emélia, ta, ši -->
     <feat name="Case" value="Voc" upos="ADJ,NOUN,PROPN">10</feat><!-- mána, A, Peδí, Yóryis, fikirsúzis, javrú, teté, ádras, ǰaním -->
-    <feat name="Clitic" value="Yes" upos="PRON">47</feat><!-- du, tu, da, mu, su, či, do, m, ta, to -->
+    <feat name="Clitic" value="Yes" upos="PRON">48</feat><!-- du, tu, da, mu, su, či, do, m, ta, to -->
     <feat name="Definite" value="Def" upos="DET">52</feat><!-- to, tu, ta, so, čin, sa, t, či, da, tes -->
     <feat name="Definite" value="Ind" upos="DET">12</feat><!-- éna, téna, tóna -->
     <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,VERB">57</feat><!-- kóri, či, čin, čis, Dunyá, enéka, mána, ǰis, Güzelidyú, Güzelí -->
@@ -54,7 +54,7 @@
     <feat name="NumType" value="Card" upos="NUM">7</feat><!-- seránda, Tris, enyá, triz, tría, δyo -->
     <feat name="PartType" value="Neg" upos="PART">1</feat><!-- re -->
     <feat name="Person" value="1" upos="PRON,VERB">38</feat><!-- mu, emís, m, mas, éχu, Ksevasám', dilimléisam', düšünǰísu, emóšh, eγó -->
-    <feat name="Person" value="2" upos="AUX,PRON,VERB">46</feat><!-- su, se, gréviz, s', sas, Ešís, báris, cimáse, drúte, eleísis -->
+    <feat name="Person" value="2" upos="AUX,PRON,VERB">46</feat><!-- su, se, gréviz, s', sas, Ešís, báris, cimáse, dróte, eleísis -->
     <feat name="Person" value="3" upos="AUX,PRON,VERB">139</feat><!-- to, du, laí, tu, da, nde, ne, či, do, leχ -->
     <feat name="Polarity" value="Neg" upos="PART">7</feat><!-- den, de, dom, dén, dε, re -->
     <feat name="Poss" value="Yes" upos="PRON">27</feat><!-- du, mu, su, čis, mas, tu, ǰis, m, m', más -->
