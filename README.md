@@ -20,6 +20,8 @@ This work was supported by COST Action CA21167 — Universality, diversity and i
 
 # Changelog
 
+* 2026-11-15 v2.19
+  * Revised Delmeso sentences 65-68 and 70: forms, transliteration, annotation and source pages.
 * 2026-05-15 v2.18
   * Added 34 Delmeso (Cappadocian) sentences.
   * Applied validation fixes for auxiliaries and projectivity.
